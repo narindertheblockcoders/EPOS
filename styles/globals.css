@@ -1749,7 +1749,7 @@ header .top-navbar .navbar-toggler-icon {
 
 
 .credit-lines {
-  top: -7% !important;
+  top: -4% !important;
   left: 0 !important;
   width: 100% !important;
 }
@@ -2415,10 +2415,8 @@ header .top-navbar .navbar-toggler-icon {
 
   #funds-arrow{left: -31% !important;}
   .userprofile-line {
-    top: -1.8% !important;
+    top: -2.3%!important;
 }
-  
-
 
   #credit-arrow{left: -30% !important;}
   #arrows-icn {
@@ -2559,6 +2557,9 @@ header .top-navbar .navbar-toggler-icon {
   #eh-arrow {
     left: -28% !important;
 }
+#funds-arrow {
+  left: -22%!important;
+}
   #cp-icon {
     left: -21% !important;
 }
@@ -2588,7 +2589,7 @@ header .top-navbar .navbar-toggler-icon {
 }
 
   #ref-code {
-    width: 100% !important;
+    width: 90% !important;
     overflow: scroll;
   }
   #left-rfset {
@@ -2918,6 +2919,9 @@ header .top-navbar .navbar-toggler-icon {
     left: -15%;
     cursor: pointer;
 }
+#funds-arrow {
+  left: -22%!important;
+}
 
 }
 
@@ -2928,8 +2932,17 @@ header .top-navbar .navbar-toggler-icon {
 }
 
 @media screen and (max-width: 375px) {
+  .profile-sec .funds-sec {
+    float: left;
+    width: 90%;
+    text-align: left;
+    overflow: scroll!important;
+}
   #eh-arrow {
     left: -25% !important;
+}
+#funds-arrow {
+  left: -20%!important;
 }
   #cp-icon {
     left: -18% !important;
@@ -3018,6 +3031,8 @@ header .top-navbar .navbar-toggler-icon {
   .heading-parts {
     padding-top: 10px;
   }
+  .forget-arrows { left: -20% !important;}
+
 }
 @media screen and (max-width: 370px) {
   .iframe-setting {
@@ -3036,6 +3051,8 @@ header .top-navbar .navbar-toggler-icon {
   .verify-hight {
     min-height: 80vh !important;
 }
+.forget-arrows { left: -18% !important;}
+
 }
 @media screen and (max-width: 353px) {
   .iframe-setting {
